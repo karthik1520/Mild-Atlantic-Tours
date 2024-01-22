@@ -1,10 +1,3 @@
-/* Student Name: Karthik Mahadevan Ramesh Kumar
- * Student ID: 23101941
- * Date:28/09/2023
- * Assignment: 1
- * Assignment: Create an application for Mild Atlantic Tours Bus
- */
-
 /* Mild Altantic Tours Bus
  * This application is designed to calculate the Fares for the usage of bus by different drivers
    and to calculate the summary of profit for the company
@@ -31,10 +24,10 @@ namespace MAT_Assignment1
         private decimal CompanySummaryReceiptsChildFare;
         private decimal CompanySummaryReceiptsStudentFare;
 
-        
-         /* Inititalizing the initital state of the form
-         * Setting the Text for the Tool Tips
-         */
+
+        /* Inititalizing the initital state of the form
+        * Setting the Text for the Tool Tips
+        */
         public MATApplicationForm()
         {
             InitializeComponent();
@@ -123,7 +116,7 @@ namespace MAT_Assignment1
                     try
                     {
                         FullFares = int.Parse(FullFaresTextBox.Text);
-                        try  
+                        try
                         {
 
                             MATApplicationForm.ActiveForm.Text = "Driver Summary:" + DriverNameTextBox.Text + " Bus ID:" + BusIDTextBox.Text;

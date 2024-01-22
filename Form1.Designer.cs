@@ -497,7 +497,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(747, 923);
+            ClientSize = new Size(747, 924);
             Controls.Add(DriverSummaryGroupBox);
             Controls.Add(DriverDailyPassengerDetailsPanel);
             Controls.Add(DriverDailyPassengerGroupBox);
